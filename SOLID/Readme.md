@@ -2,6 +2,7 @@
 **S — Single Responsibility**
 > A class should have a single responsibility
 
+![example Single Responsibility](images/example-S.png)
 
 If a Class has many responsibilities, it increases the possibility of bugs because making changes to one of its responsibilities, could affect the other ones without you knowing.
 
@@ -12,6 +13,7 @@ This principle aims to separate behaviours so that if bugs arise as a result of 
 **O — Open-Closed**
 > Classes should be open for extension, but closed for modification
 
+![example Open-Closed](images/example-O.png)
 
 Changing the current behaviour of a Class will affect all the systems using that Class.
 
@@ -25,6 +27,7 @@ This principle aims to extend a Class’s behaviour without changing the existin
 
 > If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program.
 
+![example Liskov Substitution](images/example-L.png)
 
 When a child Class cannot perform the same actions as its parent Class, this can cause bugs.
 
@@ -44,6 +47,7 @@ This principle aims to enforce consistency so that the parent Class or its child
 
 > Clients should not be forced to depend on methods that they do not use.
 
+![example Interface Segregation](images/example-I.png)
 
 When a Class is required to perform actions that are not useful, it is wasteful and may produce unexpected bugs if the Class does not have the ability to perform those actions.
 
@@ -59,6 +63,7 @@ This principle aims at splitting a set of actions into smaller sets so that a Cl
 
 > - Abstractions should not depend on details. Details should depend on abstractions.
 
+![example Dependency Inversion](images/example-D.png)
 
 Firstly, let’s define the terms used here more simply
 
