@@ -4,11 +4,11 @@
 
 Here's an example of a class definition in Python:
 
-![class-example_image1](example-class.png)
+![class-example_image1](iamges/example-class.png)
 
 In this example, the Car class is a blueprint that defines the properties of a car.
 
-![class-example_image2](example-class2.png)
+![class-example_image2](iamges/example-class2.png)
 
 We create two objects, toyota_car and chevrolet_car which are instances of the Car class. Both car objects can invoke start_engine() method using their own values for the make, model and year properties.
 
@@ -19,7 +19,7 @@ Encapsulation helps protect the object's internal state from external interferen
 
 In Python, you can achieve encapsulation using private attributes and methods, denoted by a double underscore prefix (__).
 
-![Encapsulation-example_image1](example-encapsulation.png)
+![Encapsulation-example_image1](iamges/example-encapsulation.png)
 
 In this example, the __account_number and __balance attributes are private, meaning it can't be accessed directly from outside the class. We interact with it through the deposit, withdraw, and get_balance methods.
 
@@ -34,7 +34,7 @@ Inheritance promotes code reuse and helps create a hierarchical structure.
 
 Let’s say we have a parent Vehicle class with a method named honk().
 
-![Inheritance-example_image1](example-inheritance.png)
+![Inheritance-example_image1](iamges/example-inheritance.png)
 
 The Car class inherits the color attribute and the honk method from the Vehicle class promoting code reuse. The Car class also adds its own attributes and methods, such as speed and accelerate.
 
@@ -49,7 +49,7 @@ Method overriding is when a subclass provides a specific implementation of a met
 
 For example, let’s say we have an interface Document which defines a method show().
 
-![Polymorphism-example_image1](example-Polymorphism.png)
+![Polymorphism-example_image1](iamges/example-Polymorphism.png)
 
 Each subclass (Pdf, Word) of Document implement the show method differently (method overriding), but the interface remains consistent giving the ability to iterate over both the classes using a single for loop.
 
@@ -64,7 +64,7 @@ Let’s say we have an abstract base class called Shape. The Shape class is mark
 
 Inside the Shape class, we define an abstract method called area() using the @abstractmethod decorator.
 
-![Abstraction-example_image1](example-Abstraction.png)
+![Abstraction-example_image1](iamges/example-Abstraction.png)
 
 The Rectangle and Circle classes inherit from the Shape class.
 
